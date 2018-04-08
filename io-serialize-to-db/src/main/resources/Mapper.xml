@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="voctrals.study.serial.todb.mapper.TestMapper">
+    <insert id="insertBlob" parameterType="voctrals.study.serial.todb.entity.SerialTest">
+        insert into serial_test(name, data) values (#{name}, #{data})
+    </insert>
+
+    <select id="getAllBlob" resultType="voctrals.study.serial.todb.entity.SerialTest">
+        select id, name, data
+        from serial_test
+    </select>
+</mapper>
