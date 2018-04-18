@@ -11,10 +11,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module></module>
         <module>io-serializable-study</module>
         <module>io-rsa-study</module>
         <module>io-serialize-to-db</module>
+        <module>io-nio</module>
     </modules>
 
 
