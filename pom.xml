@@ -15,6 +15,7 @@
         <module>io-rsa-study</module>
         <module>io-serialize-to-db</module>
         <module>io-nio</module>
+        <module>netty-study</module>
     </modules>
 
 
