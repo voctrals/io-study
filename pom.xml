@@ -16,6 +16,7 @@
         <module>io-serialize-to-db</module>
         <module>io-nio</module>
         <module>netty-study</module>
+        <module>standard-nio</module>
     </modules>
 
 
