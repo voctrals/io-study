@@ -14,10 +14,16 @@
         <module>io-serializable-study</module>
         <module>io-rsa-study</module>
         <module>io-serialize-to-db</module>
-        <module>io-nio</module>
         <module>netty-study</module>
         <module>standard-nio</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
 </project>
